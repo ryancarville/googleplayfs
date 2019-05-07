@@ -1,0 +1,25 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server",
+		"test": "mocha",
+		"dev": "nodemon server"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"morgan": "^1.9.1"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.1.4",
+		"nodemon": "^1.19.0",
+		"supertest": "^4.0.2"
+	}
+}
